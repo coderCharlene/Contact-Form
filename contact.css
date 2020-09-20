@@ -1,0 +1,71 @@
+body
+{
+    background-image: url("blackbg.jpg");
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.input_data input[type="text"], .input_data input[type="email"]
+
+{
+   width: 250px;
+   height: 30px;
+   margin-left: 3%;
+   text-align: center;
+   font-size: large;
+   border-radius: 24px;
+}
+
+textarea
+{
+    width: 260px;
+    height: 220px;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.input_data input[type="submit"]
+{
+   width: 250px;
+   height: 30px;
+   margin-left: 3%;
+   text-align: center;
+   font-size: large;
+   border-radius: 24px;
+   background-color: grey;
+   cursor: pointer;
+}
+
+.input_data input[type="text"]:focus, .input_data input[type="email"]:focus
+{
+    width: 320px;
+    height: 40px;
+    border-color: blueviolet;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+textarea:focus
+{
+    width: 400px;
+    height: 235px;
+}
+
+.input_data input[type="submit"]:hover
+{
+    background-color: aquamarine;
+}
+
+#error_message
+{
+    margin-top: 16px;
+    margin-left: 40%;
+    width: 300px;
+    background-color: red;
+    border-radius: 25px;
+    font-size: large;
+    transition: all 2800s;
+}
